@@ -1,0 +1,2 @@
+require 'phonegap_rails'
+
