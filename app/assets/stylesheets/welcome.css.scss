@@ -2,6 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import 'colorsfont';
+
+
 /* main hero image */ 
 
 .hero { 
@@ -33,11 +36,28 @@
   margin-top: 10px;
 }
 
- #nav-button {
-  background-color: #59e2dd;
-  border: 1px solid #48b7a9;
-  color: #ae8774;
-  margin-top: 30px;
+.nav-buttons {
+	float: right;
+}
+
+#nav-button1 {
+	margin-right: -30px;
+	background-color: #59e2dd;
+	border: 1px solid #48b7a9;
+	color: #524940;
+	margin-top: 15px;
+  font-family: $font-family;
+  font-weight: 700;
+}
+
+#nav-button2 {
+    margin-left: 40px;
+	  background-color: #59e2dd;
+    border: 1px solid #48b7a9;
+    color: #524940;
+    margin-top: 15px;
+    font-family: $font-family;
+    font-weight: 700;
 }
 
 /* hero logo, wording and buttons */
@@ -49,14 +69,30 @@
 .hero-title {
   text-align: center;
   color: #524940;
+  font-family: $font-family;
+  font-weight: 300;
 }
 
 #browsebutton {
-  background-color: #e6623b;
+  background-color: $darkbrown;
+  color: $lightteal;
+  font-family: $font-family;
+  font-weight: 400;
+}
+
+#browsebutton:hover {
+  background-color: $lightbrown;
 }
 
 #learnmorebutton {
-  background-color: #a9b3af;
+  background-color: $lightbrown;
+  font-family: $font-family;
+  font-weight: 400;
+  color: $lightteal;
+}
+
+#learnmorebutton:hover {
+  background-color: $darkbrown;
 }
 
 
