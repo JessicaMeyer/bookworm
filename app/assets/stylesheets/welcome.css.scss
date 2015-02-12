@@ -1,0 +1,62 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* main hero image */ 
+
+.hero { 
+  height: 600px;
+  width: 100%;
+  background-image:url("https://raw.githubusercontent.com/JessicaMeyer/bookworm/master/app/assets/images/new_bookshelf2.png");
+  background-repeat: no-repeat;;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* nav bar */
+
+.nav-bar {
+  top: 0;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 65px;
+  background-color: #59e2dd;
+
+}
+
+.small_logo {
+  width: 60px;
+  margin-top: 10px;
+}
+
+ #nav-button {
+  background-color: #59e2dd;
+  border: 1px solid #48b7a9;
+  color: #ae8774;
+  margin-top: 30px;
+}
+
+/* hero logo, wording and buttons */
+
+.main_logo {
+  margin-top: 145px;
+}
+
+.hero-title {
+  text-align: center;
+  color: #524940;
+}
+
+#browsebutton {
+  background-color: #e6623b;
+}
+
+#learnmorebutton {
+  background-color: #a9b3af;
+}
+
+
