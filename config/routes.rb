@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
-root "books#index"
+  # get 'books/show_books'
+
+ root "welcome#index"
 
 end
