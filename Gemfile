@@ -48,3 +48,5 @@ gem 'rest-client'
 gem "json", "~> 1.8"
 
 gem 'foundation-rails'
+
+gem 'googlebooks', '~> 0.0.9'

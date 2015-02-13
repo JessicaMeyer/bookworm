@@ -16,3 +16,7 @@
 !/log/.keep
 /tmp
 /vendor
+
+.bundle
+vendor/bundle
+.DS_Store

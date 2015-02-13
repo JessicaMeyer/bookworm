@@ -48,7 +48,12 @@ GEM
     foundation-rails (5.4.3.1)
       railties (>= 3.1.0)
       sass (>= 3.2.0)
+    googlebooks (0.0.9)
+      httparty
     hike (1.2.3)
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.7.0)
     jbuilder (2.2.6)
       activesupport (>= 3.0.0, < 5)
@@ -64,6 +69,7 @@ GEM
     mime-types (2.4.3)
     minitest (5.5.1)
     multi_json (1.10.1)
+    multi_xml (0.5.5)
     netrc (0.10.2)
     pg (0.18.1)
     pry (0.10.1)
@@ -139,6 +145,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   foundation-rails
+  googlebooks (~> 0.0.9)
   jbuilder (~> 2.0)
   jquery-rails
   json (~> 1.8)
