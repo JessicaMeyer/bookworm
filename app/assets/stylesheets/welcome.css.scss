@@ -10,7 +10,7 @@
 .hero { 
   height: 600px;
   width: 100%;
-  background-image:url("https://raw.githubusercontent.com/JessicaMeyer/bookworm/master/app/assets/images/new_bookshelf2.png");
+  background-image:url("https://raw.githubusercontent.com/JessicaMeyer/bookworm/master/app/assets/images/whitebookshelf3.png");
   background-repeat: no-repeat;;
   background-size: cover;
   background-position: center;
@@ -63,36 +63,105 @@
 /* hero logo, wording and buttons */
 
 .main_logo {
-  margin-top: 145px;
+  // margin-top: 145px;
+  margin-top: 200px;
 }
 
 .hero-title {
   text-align: center;
   color: #524940;
   font-family: $font-family;
-  font-weight: 300;
+  font-weight: 400;
+  margin-top: 30px;
 }
 
 #browsebutton {
-  background-color: $darkbrown;
-  color: $lightteal;
+  background-color: $lightteal;
   font-family: $font-family;
-  font-weight: 400;
-}
-
-#browsebutton:hover {
-  background-color: $lightbrown;
+  font-weight: 500;
+  color: $darkbrown;
+  border: 1px solid $darkteal;
 }
 
 #learnmorebutton {
-  background-color: $lightbrown;
-  font-family: $font-family;
-  font-weight: 400;
+  background-color: $darkbrown;
   color: $lightteal;
+  font-family: $font-family;
+  font-weight: 500;
 }
 
-#learnmorebutton:hover {
-  background-color: $darkbrown;
+
+/* category section */
+
+.category-section {
+  padding-bottom: 40px;
 }
+
+
+.category-title {
+  font-family: $font-family;
+  font-weight: 700;
+  text-align: center;
+  color: $darkbrown;
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+/* learn section */
+
+.learn-section {
+  background-color: #f8f8f8;
+  height: 300px;
+}
+
+.learn-title {
+  font-family: $font-family;
+  font-weight: 700;
+  text-align: center;
+  color: $darkbrown;
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+
+/* app section */
+
+.phone-section {
+  padding-bottom: 40px;
+  margin-top: 40px;
+}
+
+.appbadge {
+  width: 100px;
+}
+
+.phone-title {
+  margin-top: 100px;
+  font-family: $font-family;
+  font-weight: 700;
+  color: $darkbrown;
+  font-size: 32px;
+}
+
+.phone-text {
+  font-family: $font-family;
+  font-weight: 300;
+  color: $darkbrown;
+}
+
+
+/* footer section */
+
+.footer-section {
+  height: 400px;
+  background-image:url("https://raw.githubusercontent.com/JessicaMeyer/bookworm/master/app/assets/images/footer.png");
+  background-repeat: no-repeat;;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 
 
