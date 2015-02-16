@@ -10,4 +10,10 @@
       </div>
   </div>
 
-  
+  <div>
+  <ul>
+    <% @books.each do |book| %>
+    <li> <%= book.title %> </li>
+    <% end %>
+  </ul>
+</div>
