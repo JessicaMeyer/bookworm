@@ -45,8 +45,6 @@ GEM
     debugger-linecache (1.2.0)
     erubis (2.7.0)
     execjs (2.3.0)
-    figaro (1.1.0)
-      thor (~> 0.14)
     foundation-rails (5.4.3.1)
       railties (>= 3.1.0)
       sass (>= 3.2.0)
@@ -67,8 +65,6 @@ GEM
     libv8 (3.16.14.7)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    masonry-rails (0.2.4)
-      railties
     method_source (0.8.2)
     mime-types (2.4.3)
     minitest (5.5.1)
@@ -148,13 +144,11 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  figaro
   foundation-rails
   googlebooks (~> 0.0.9)
   jbuilder (~> 2.0)
   jquery-rails
   json (~> 1.8)
-  masonry-rails
   pg
   pry-byebug
   rails (= 4.1.7)

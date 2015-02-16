@@ -9,11 +9,10 @@
         </div>
       </div>
   </div>
-
-  <div>
-  <ul>
-    <% @books.each do |book| %>
-    <li> <%= book.title %> </li>
-    <% end %>
-  </ul>
 </div>
+
+
+  <div class="book-list">
+     <% (@books['items']).each do |item| %>
+       <li> <%= item['volumeInfo']['title'] %> </li>
+  <% end %>
