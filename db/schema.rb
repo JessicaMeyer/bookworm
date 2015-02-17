@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20150210212414) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "books", force: true do |t|
     t.string   "title"
     t.string   "author"
@@ -23,8 +26,8 @@ ActiveRecord::Schema.define(version: 20150210212414) do
     t.integer  "user_id"
   end
 
-  add_index "books", ["category_id"], name: "index_books_on_category_id"
-  add_index "books", ["user_id"], name: "index_books_on_user_id"
+  add_index "books", ["category_id"], name: "index_books_on_category_id", using: :btree
+  add_index "books", ["user_id"], name: "index_books_on_user_id", using: :btree
 
   create_table "bookshelves", force: true do |t|
     t.datetime "created_at"
@@ -33,8 +36,8 @@ ActiveRecord::Schema.define(version: 20150210212414) do
     t.integer  "user_id"
   end
 
-  add_index "bookshelves", ["book_id"], name: "index_bookshelves_on_book_id"
-  add_index "bookshelves", ["user_id"], name: "index_bookshelves_on_user_id"
+  add_index "bookshelves", ["book_id"], name: "index_bookshelves_on_book_id", using: :btree
+  add_index "bookshelves", ["user_id"], name: "index_bookshelves_on_user_id", using: :btree
 
   create_table "categories", force: true do |t|
     t.string   "title"
@@ -43,7 +46,7 @@ ActiveRecord::Schema.define(version: 20150210212414) do
     t.integer  "book_id"
   end
 
-  add_index "categories", ["book_id"], name: "index_categories_on_book_id"
+  add_index "categories", ["book_id"], name: "index_categories_on_book_id", using: :btree
 
   create_table "create_users", force: true do |t|
     t.string   "username"
