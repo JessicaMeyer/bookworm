@@ -3,14 +3,13 @@
 <div class="nav-bar">
     <div class="row">
        <div class="large-6 columns">
-          <div class="small_logo"><%= image_tag "navicon.png" %></div>
+          <div class="small_logo"><a href="/"><%= image_tag "navicon.png" %></a></div>
           </div>
           <div class="large-6 columns">
           <div class="book-form">
              <select>
                <option value="category">Select Book Category</option>
-              <% categories = GoogleBooks.search("categories") %>
-               <%= options_from_collection_for_select(categories, :id, :title) %>
+               <%= options_from_collection_for_select(Category.all, :id, :title) %>
             </select>
          </div>
         </div>
