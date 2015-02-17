@@ -1,28 +1,12 @@
-== README
+== BookWorm 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The purpose of BookWorm is to find books you want to read. 
+Browse popular categories and view books by book cover. 
+BookWorm was created for MakerSquare cohort 10 final projects. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Technologies: 
+1. Ruby on Rails 
+2. Foundation 5 (HTML, CSS, SASS)
+3. Google Books API 
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
