@@ -37,43 +37,45 @@
 
 <!--category section-->
 
-<div class="category-section">
 
-  <p class="category-title"> Just a Few of the Category Selections ...</p>
-    <div class="row">
-      <div class="large-3 columns">
-        <%= image_tag "fiction.png" %>
-      </div>
-      <div class="large-3 columns">
-        <%= image_tag "cooking.png" %>
-      </div>
-      <div class="large-3 columns">
-        <%= image_tag "biography.png" %>
-      </div>
-      <div class="large-3 columns">
-        <%= image_tag "gardening.png" %>
-      </div>
-    </div>
+<!--learn more steps section-->
 
-</div>
-
-
-<!--learn more section-->
-
-<div class="learn-section">
+<div class="step-one-section">
   <a id="learn"></a>
-
- <p class="learn-title"> How It Works </p>
- <div class="row">
-  <div class="large-12 columns">
-    <p>BookWorm is easy as ... </p>
-    <p>BookWorm is easy as ... </p>
-    <p>BookWorm is easy as ... </p>
-    <p>BookWorm is easy as ... </p>
+  
+  <p class="learn-title"><em>BookWorm Brings The Bookstore To You</em> </p>
+  
+  <div class="row">
+    <div class="large-6 columns">
+      <%= image_tag "macbook.png", :class => "macbook" %>
   </div>
-</div>
+  <div class="large-6 columns">
+    <p class="step-one-title"><%=image_tag "bookicon.png", :class => "bookicon" %> VISUAL DISPLAY </p>
+    <p class="step-one-text"> Love picking books by the book cover? We got you covered.</p>
+  </div> 
 </div>
 
+</div>
+
+<!-- second learn more section -->
+
+<div class="step-two-section">
+  <div class="row">
+
+    <div class="large-6 columns" id ="numberonesection">
+     <p class="step-two-title"><%=image_tag "numberone.png", :class => "numberone" %> BROWSE </p>
+     <p class="step-two-text"> With so many categories to choose from BookWorm has you covered. Browse popular categories or view popular lists, such as the New York Times Bestsellers list. </p>
+   </div>
+    <div class="large-6 columns" id ="numbertwosection">
+     <p class="step-two-title"><%=image_tag "numbertwo.png", :class => "numbertwo" %> SAVE </p>
+     <p class="step-two-text"> Save books you want to read easily by using BookWorm. Once you find a book you want to read, click the add button to add to your bookshelf for later. </p>
+  </div>
+
+ </div>
+    <div class="browse-button">
+      <a href="/books" class="button large radius" id="browse-books"> Browse Books </a>
+    </div>
+</div>
 
 <!--phone section-->
 
@@ -99,6 +101,9 @@
 
   <div class="row">
     <div class="large-12 columns">
+      <center>
+        <p class="footer-title"> ⓒ BookWorm | <a href="https://www.github.com/jessicameyer/booker"> GitHub </p></a>
+      </center>
     </div>
   </div>
 </div>
