@@ -1,18 +1,48 @@
 <!--nav bar-->
 
 <div class="nav-bar">
-      <div class="row">
-          <div class="large-6 columns">
+    <div class="row">
+       <div class="large-6 columns">
           <div class="small_logo"><%= image_tag "navicon.png" %></div>
           </div>
           <div class="large-6 columns">
+          <div class="book-form">
+             <select>
+               <option value="category">Select Book Category</option>
+              <% categories = GoogleBooks.search("categories") %>
+               <%= options_from_collection_for_select(categories, :id, :title) %>
+            </select>
+         </div>
         </div>
-      </div>
+     </div>
   </div>
+
+
+<!--book section --> 
+
+<div class="row">
+  <div class="large-12 columns">
+
+   <div class="cover-list">
+    <% (@books['items']).each do |item| %>
+      <% book = item['volumeInfo']['imageLinks']['thumbnail'] %>
+      <%= image_tag book %>
+    <% end %>
+
+  </div>
+ </div>
 </div>
 
 
-  <div class="book-list">
-     <% (@books['items']).each do |item| %>
-       <li> <%= item['volumeInfo']['title'] %> </li>
-  <% end %>
+<!--footer section-->
+
+<div class="footer-section">
+
+  <div class="row">
+    <div class="large-12 columns">
+      <center>
+        <p class="footer-title"> ⓒ BookWorm | <a href="https://www.github.com/jessicameyer/booker"> GitHub </p></a>
+      </center>
+    </div>
+  </div>
+</div>

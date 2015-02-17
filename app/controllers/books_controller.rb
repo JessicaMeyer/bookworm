@@ -6,9 +6,11 @@ class BooksController < ApplicationController
 
 # list all books - GET /books
 def index
-  base_url = 'https://www.googleapis.com/books/v1/volumes?q=fiction&key='
+  base_url = 'https://www.googleapis.com/books/v1/volumes?'
+  category = 'q=subject'
+  and_key = '&key='
   key = ENV['GOOGLE_BOOKS_API_KEY'] 
-  googleurl = base_url + key
+  googleurl = base_url + category + and_key + key
 
   response = RestClient.get(googleurl)
   @books = JSON.parse(response)
@@ -16,6 +18,7 @@ def index
   respond_to do |format|
     format.html
     format.json { render json: @books }
+
  end
 end
 
