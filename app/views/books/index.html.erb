@@ -7,10 +7,10 @@
           </div>
           <div class="large-6 columns">
           <div class="book-form">
-             <select>
-               <option value="category">Select Book Category</option>
-               <%= options_from_collection_for_select(Category.all, :id, :title) %>
-            </select>
+        <% categories = @books['items'].map do |book| %>
+            <% book['volumeInfo']['categories'] %>
+         <% end.flatten.uniq %>
+        <%= select_tag "category", options_for_select(categories) %>
          </div>
         </div>
      </div>
@@ -45,3 +45,11 @@
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
+
