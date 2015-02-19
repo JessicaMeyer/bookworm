@@ -21,8 +21,8 @@ then display for that proper category
 
 == Screenshots
 
-Home page Hero : https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm3.png
-Home page Second section: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm4.png
-Home page Mobile app section: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm5.png
-Books page: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm1.png
-Books page dropdown menu: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm2.png
+- Home page Hero : https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm3.png
+- Home page Second section: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm4.png
+- Home page Mobile app section: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm5.png
+- Books page: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm1.png
+- Books page dropdown menu: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm2.png
