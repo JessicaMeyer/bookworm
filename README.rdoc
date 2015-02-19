@@ -18,3 +18,11 @@ then display for that proper category
 - Create sign in/sign up functionality
 - Once a user signs in they can save the book they are interested in to their virtual bookshelf
 - Link to purchase the book
+
+== Screenshots
+
+Home page Hero : https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm3.png
+Home page Second section: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm4.png
+Home page Mobile app section: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm5.png
+Books page: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm1.png
+Books page dropdown menu: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm2.png
