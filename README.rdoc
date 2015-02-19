@@ -10,9 +10,9 @@ Client-side: Foundation 5 (HTML, CSS, SASS)
 APIs: Google Books API 
 
 == Potential Additions
-1. Extend search functionality so users can select a book category and the books 
+- Extend search functionality so users can select a book category and the books 
 then display for that proper category
-2. Use Devise for user authentication
-3. Create sign in/sign up functionality
-4. Once a user signs in they can save the book they are interested in to their virtual bookshelf
-5. Link to purchase the book
+- Use Devise for user authentication
+- Create sign in/sign up functionality
+- Once a user signs in they can save the book they are interested in to their virtual bookshelf
+- Link to purchase the book
