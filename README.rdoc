@@ -3,11 +3,13 @@
 == Project Overview
 BookWorm is a virtual bookshelf, a way to view different books by book cover 
 and create a visual experience of book shopping. The idea is that users can
+see the results of popular books by book cover and then choose a category 
+to view books. 
 
 == Tech Stack
-Server-side: Ruby on Rails, SQLite before switching to PostgreSQL for Heroku, ActiveRecord 
-Client-side: Foundation 5 (HTML, CSS, SASS)
-APIs: Google Books API 
+- Server-side: Ruby on Rails, SQLite before switching to PostgreSQL for Heroku, ActiveRecord 
+- Client-side: Foundation 5 (HTML, CSS, SASS)
+- APIs: Google Books API 
 
 == Potential Additions
 - Extend search functionality so users can select a book category and the books 
