@@ -1,12 +1,28 @@
 == BookWorm 
 
-The purpose of BookWorm is to find books you want to read. 
-Browse popular categories and view books by book cover. 
-BookWorm was created for MakerSquare cohort 10 final projects. 
+== Project Overview
+BookWorm is a virtual bookshelf, a way to view different books by book cover 
+and create a visual experience of book shopping. The idea is that users can
+see the results of popular books by book cover and then choose a category 
+to view books. 
 
-Technologies: 
-1. Ruby on Rails 
-2. Foundation 5 (HTML, CSS, SASS)
-3. Google Books API 
+== Tech Stack
+- Server-side: Ruby on Rails, SQLite before switching to PostgreSQL for Heroku, ActiveRecord 
+- Client-side: Foundation 5 (HTML, CSS, SASS)
+- APIs: Google Books API 
 
+== Potential Additions
+- Extend search functionality so users can select a book category and the books 
+then display for that proper category
+- Use Devise for user authentication
+- Create sign in/sign up functionality
+- Once a user signs in they can save the book they are interested in to their virtual bookshelf
+- Link to purchase the book
 
+== Screenshots
+
+- Home page Hero : https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm3.png
+- Home page Second section: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm4.png
+- Home page Mobile app section: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm5.png
+- Books page: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm1.png
+- Books page dropdown menu: https://github.com/JessicaMeyer/portfolio/blob/master/images/bookworm2.png
