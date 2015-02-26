@@ -8,7 +8,8 @@
 /* main hero image */ 
 
 .hero { 
-  height: 600px;
+  height: 700px;
+  // height: 1000px;
   width: 100%;
   background-image:url("https://raw.githubusercontent.com/JessicaMeyer/bookworm/master/app/assets/images/whitebookshelf3.png");
   background-repeat: no-repeat;;
@@ -51,13 +52,13 @@
 }
 
 #nav-button2 {
-    margin-left: 40px;
-	  background-color: #59e2dd;
-    border: 1px solid #48b7a9;
-    color: #524940;
-    margin-top: 15px;
-    font-family: $font-family;
-    font-weight: 700;
+  margin-left: 40px;
+  background-color: #59e2dd;
+  border: 1px solid #48b7a9;
+  color: #524940;
+  margin-top: 15px;
+  font-family: $font-family;
+  font-weight: 700;
 }
 
 /* hero logo, wording and buttons */
@@ -89,23 +90,6 @@
   font-family: $font-family;
   font-weight: 500;
 }
-
-
-/* category section */
-
-// .category-section {
-//   padding-bottom: 40px;
-// }
-
-
-// .category-title {
-//   font-family: $font-family;
-//   font-weight: 700;
-//   text-align: center;
-//   color: $darkbrown;
-//   padding-top: 20px;
-//   font-size: 24px;
-// }
 
 /* step-one section */
 
